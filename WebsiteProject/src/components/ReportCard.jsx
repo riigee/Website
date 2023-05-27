@@ -1,5 +1,5 @@
 
-//import '.ReportCard.css';
+import './ReportCard.css';
 
 function ReportCard({ image, title, description, date }) {
     return(
