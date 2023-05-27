@@ -1,7 +1,8 @@
 .report-card {
     background-color: rgb(245, 245, 245);
     display: inline-flex;
-  width: 16em;
+  width: 20em;
+  height: auto;
   border: 2px solid rgb(201, 200, 200);
   border-radius: .4em;
   flex-direction: column;
@@ -15,7 +16,7 @@
     border-color: rgb(87, 87, 87);
 }
 .report-card img{
-    width: 90%;
+    width: auto;
 }
 .report-card h3 {
     margin-top: 0.5em;
@@ -32,4 +33,5 @@
     border-top: 1px solid rgb(184, 184, 184);
     display: flex;
     justify-content: center;
+    align-content: last baseline;
   }
