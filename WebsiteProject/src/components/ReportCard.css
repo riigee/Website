@@ -1,7 +1,18 @@
 .report-card {
-    width: 15em;
     background-color: rgb(245, 245, 245);
-    padding: .5em .7em;
+    display: inline-flex;
+  width: 16em;
+  border: 2px solid rgb(201, 200, 200);
+  border-radius: .4em;
+  flex-direction: column;
+  padding: .6em;
+  margin-right: 2em;
+  margin-top: 1em;
+  box-shadow: 0 4px 5px -5px grey;
+}
+.report-card:hover {
+    cursor: pointer;
+    border-color: rgb(87, 87, 87);
 }
 .report-card img{
     width: 90%;
