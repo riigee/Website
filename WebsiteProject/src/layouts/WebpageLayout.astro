@@ -1,0 +1,44 @@
+---
+import Header from "../components/Header.astro";
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <footer>
+      &copy; Gerard Gallego, 2023
+    </footer>
+  </body>
+</html>
+
+<style>
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex: 1;
+  }
+  footer {
+    border-top: 1px solid rgb(164, 164, 164)
+    padding: .5em 0;
+    font-size: 90%;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+</style>
