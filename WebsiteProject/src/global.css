@@ -1,7 +1,17 @@
-body {
+body p {
     margin: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
   }
   main {
     margin: 1.5em;
+  }
+  .Korea{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }

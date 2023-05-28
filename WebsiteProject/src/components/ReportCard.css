@@ -1,6 +1,6 @@
 .report-card {
     background-color: rgb(245, 245, 245);
-    display: inline-flex;
+    display: inline-block;
   width: 20em;
   height: auto;
   border: 2px solid rgb(201, 200, 200);
@@ -16,7 +16,7 @@
     border-color: rgb(87, 87, 87);
 }
 .report-card img{
-    width: auto;
+    width: 75%;
 }
 .report-card h3 {
     margin-top: 0.5em;
@@ -34,4 +34,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .report-card .bottom a {
+    margin-top: 1em;
   }
